@@ -28,7 +28,7 @@
 </nav>
  <?php
 $query = "SELECT name "
-    . "FROM contact.contact";
+    . "FROM Salesforcenavneet.Account";
 $result = $pdo->query($query);
 while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
     echo "<tr>";
